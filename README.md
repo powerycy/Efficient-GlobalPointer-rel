@@ -1,6 +1,6 @@
 ## 引言
 1. 苏神Efficient-GlobalPointer原文链接https://spaces.ac.cn/archives/8877
-2. 关于torch版本的Efficient-GlobalPointer复现。
+2. 关于torch版本的Efficient-GlobalPointer复现:https://github.com/powerycy/Efficient-GlobalPointer
 ## 如何运行
 1. Pytorch版本Efficient-GlobalPointer模型的关系抽取版本,之前本人在讯飞大赛的医疗关系抽取大赛中进行过实验。
 2. config.ini文件可配置所需的参数
