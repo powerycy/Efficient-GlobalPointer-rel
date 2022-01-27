@@ -116,7 +116,6 @@ def train(epoch,dataloader, model, loss_func, optimizer):
 
         numerate_tail += temp_n_tail
         denominator_tail += temp_d_tail
-        # Backpropagation
         w_ent, w_rel = loss_weights["ent"], loss_weights["rel"]
         loss = w_ent * loss_ent + w_rel * loss_head + w_rel * loss_tail
         loss.backward()
